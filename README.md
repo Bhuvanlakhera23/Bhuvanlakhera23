@@ -20,3 +20,5 @@ electronics, embedded sensing and wireless communication within a team-built pay
 ## Research interests
 
 Robot learning · Legged locomotion · Reinforcement learning · Sim-to-real · Embodied autonomy
+
+[LinkedIn](https://www.linkedin.com/in/bhuvanlakhera/)
