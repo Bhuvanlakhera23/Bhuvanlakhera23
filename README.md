@@ -17,6 +17,20 @@ electronics, embedded sensing and wireless communication within a team-built pay
 - **[Go2 Learns to Climb](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl)** — our technical report on experience allocation and acquisition–retention trade-offs.
 - **[CanSat](https://github.com/Bhuvanlakhera23/Canister-Satellite-for-Atmospheric-Data-Acquisition)** — electronics, sensor acquisition and Zigbee telemetry in a team hardware project.
 
+## Explore the work
+
+| Interest | Start here |
+|---|---|
+| Research results and methodology | [Go2 obstacle-learning report and numerical tables](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl) |
+| Engineering demonstrations | [Go2 simulation and physical recording gallery](https://github.com/Bhuvanlakhera23/go2-rl-locomotion/blob/main/docs/media-gallery.md) |
+| Inspectable source and verification | [Public analysis scripts](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl/tree/main/scripts) and [CPU reproduction guide](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl/blob/main/docs/REPRODUCIBILITY.md) |
+| Embedded hardware | [CanSat electronics, sensing and telemetry](https://github.com/Bhuvanlakhera23/Canister-Satellite-for-Atmospheric-Data-Acquisition) |
+
+The public scripts reproduce numerical analysis and figures, rather than PPO
+training. The complete high-obstacle controller and training implementation remain
+private. New educational code candidates are undergoing local review and are not
+listed here as released projects.
+
 ## Research interests
 
 Robot learning · Legged locomotion · Reinforcement learning · Sim-to-real · Embodied autonomy
