@@ -15,6 +15,7 @@ electronics, embedded sensing and wireless communication within a team-built pay
 
 - **[Go2 RL Locomotion](https://github.com/Bhuvanlakhera23/go2-rl-locomotion)** — the engineering pipeline, robot demonstrations and measured obstacle-learning results.
 - **[Go2 Learns to Climb](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl)** — our technical report on experience allocation and acquisition–retention trade-offs.
+- **[Robot Policy Tools](https://github.com/Bhuvanlakhera23/robot-policy-tools)** — independently authored CPU software for policy I/O validation and offline signal analysis; MIT licensed.
 - **[CanSat](https://github.com/Bhuvanlakhera23/Canister-Satellite-for-Atmospheric-Data-Acquisition)** — electronics, sensor acquisition and Zigbee telemetry in a team hardware project.
 
 ## Explore the work
@@ -23,13 +24,15 @@ electronics, embedded sensing and wireless communication within a team-built pay
 |---|---|
 | Research results and methodology | [Go2 obstacle-learning report and numerical tables](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl) |
 | Engineering demonstrations | [Go2 simulation and physical recording gallery](https://github.com/Bhuvanlakhera23/go2-rl-locomotion/blob/main/docs/media-gallery.md) |
-| Inspectable source and verification | [Public analysis scripts](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl/tree/main/scripts) and [CPU reproduction guide](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl/blob/main/docs/REPRODUCIBILITY.md) |
+| Inspectable robotics software | [Policy contracts and signal metrics](https://github.com/Bhuvanlakhera23/robot-policy-tools/tree/main/src/robot_policy_tools) · [tests](https://github.com/Bhuvanlakhera23/robot-policy-tools/tree/main/tests) · [synthetic example](https://github.com/Bhuvanlakhera23/robot-policy-tools/blob/main/examples/synthetic.py) · [passing CPU CI](https://github.com/Bhuvanlakhera23/robot-policy-tools/actions/runs/43023067171) |
+| Research reproduction | [Public analysis scripts](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl/tree/main/scripts) and [CPU reproduction guide](https://github.com/Bhuvanlakhera23/go2-obstacle-learning-rl/blob/main/docs/REPRODUCIBILITY.md) |
 | Embedded hardware | [CanSat electronics, sensing and telemetry](https://github.com/Bhuvanlakhera23/Canister-Satellite-for-Atmospheric-Data-Acquisition) |
 
 The public scripts reproduce numerical analysis and figures, rather than PPO
 training. The complete high-obstacle controller and training implementation remain
-private. New educational code candidates are undergoing local review and are not
-listed here as released projects.
+private. Robot Policy Tools is a separate software project and was not used to generate
+the original high-obstacle benchmark. Educational code candidates remain local
+and are not listed here as released projects.
 
 ## Research interests
 
