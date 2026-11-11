@@ -8,7 +8,7 @@ negotiate terrain without a height map supplied to the actor.
 
 That systems work led me to a research question: **how can a policy acquire harder
 movement skills without losing useful locomotion?** I investigate this with Deepan
-Muthirayan in our Foundation-02B technical report. My earlier CanSat work covered
+Muthirayan in our technical report on experience allocation. My earlier CanSat work covered
 electronics, embedded sensing and wireless communication within a team-built payload.
 
 ## Selected projects
